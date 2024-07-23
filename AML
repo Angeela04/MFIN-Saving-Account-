@@ -1,0 +1,17 @@
+anti money laundry setting
+goto admin panel
+product--->saving----> AML 
+can be made for both deposit and saving 
+
+QUERY TO CHECK THE AML RECORD
+select * from aml_records;
+
+for adding purpose and sources options
+goto admin panel 
+
+product--->saving--->Aml--->>purpose and saving both are there
+
+for ID selection in AML
+ASUS
+General --->basic--->file name
+add the id then it will show

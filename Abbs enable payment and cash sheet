@@ -1,0 +1,31 @@
+IMPortant-----------------
+ step-1 to enable in optional saving  first goto 
+admin panel
+product---->saving product------>
+select saving 
+then
+edit 
+and select enable abbs 
+
+this enables the abbs setting in member after above only we will be able to select in 
+the member setting
+
+---------------------------------
+step-2 enable the abbs in the member in the k02 from the account setting
+goto to the admin asus 
+then
+product--> saving product---->example:optional saving edit
+cick on the Enable ABBS Deposit and Enable ABBS payment
+then 
+goto general setting in asus 
+system setting
+ENABLE_ABBS_PAYMENT make it TRUE
+ENABLE_ABBS make it TRUE(if this is false then it restrict all other setting   no mater what is on)
+
+then change the branch setting then perform the abbs with 
+Transaction(navbar)
+cash sheeet ---->By client----->enter M.code now select that account that has been enabled in account setting in the k02 setting
+
+for journal 
+goto to L02 or k02
+then Account (navbar)>>>IBT(center loan)>>>>IBT outgoing(outgoing (if the ammount to gone from the current branch)) or ingoing 

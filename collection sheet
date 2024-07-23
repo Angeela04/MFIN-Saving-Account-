@@ -1,0 +1,17 @@
+update saving_product set is_withdrawable=1;
+set sql_safe_updates = 0;
+update account_opening set is_withdrawable=0;
+update account_opening set is_withdrawable=1 where is_default=1;
+(update sql query before performing the collection sheet process)
+
+
+check the admin panel for product--->product order details and check 
+the order for optional saving to that last so that the extra amount received in collection sheet
+is transfeereed to optional saving (only for regular and irregular account)
+
+collection sheet process to deposit and withdraw money
+navbar-->Transaction---->collection sheet----by date--->collection sheet
+------> try withdraw or deposit accordingly
+to withdraw 
+In Action tab there is a withdraw tab click on it
+if deposit is greater than required money transferred to optional saving if is_default is set to 1

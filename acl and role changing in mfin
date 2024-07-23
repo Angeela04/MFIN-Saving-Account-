@@ -1,0 +1,32 @@
+General ---> basic--->category---->center by member
+
+kyc(active status)-field change 
+user--->username--->role check to login
+
+for role assign 
+role edit
+for approve in active status 
+
+
+ACl is for active user only
+role is for to give crud access
+
+in admin panel 
+to product --> saving --> fixed deposit scheme
+
+for upadan saving==pension saving
+----------------------------------------
+for transfer sheet
+goto saving in admin--.product--->saving---->saving product
+and make the is default
+-----------------------
+in frontend
+goto the select the optional saving and check the isdefault
+-----------------------------------------------------------------
+change order of product 
+admin
+product--->product order details(those which is last there goes the extra amount)
+
+important admin setting to remember for dropdown displaying when customer is made to member there shoes the dropdown optin which member/public to choose this seettings enable it
+goto 
+General--->basic--->category----->centerbymember

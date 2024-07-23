@@ -1,0 +1,3 @@
+GOTO GENERAL(navbar)---->System setting ----->Decimal Adjustment 
+this setting enables the decimal roundoff whenever payment sheet or cashshhet(deposit) is done if the money is 100.51 or 0.50 or more it is roundoff as 101
+but if the pasia is less < than 0.50 i.e 0.49,0.48 it does not roundoff

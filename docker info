@@ -1,0 +1,17 @@
+//Run docker 
+docker run -it --rm -p8080:8080 -p4848:4848 -p3309:3306 -p8383:8383 -p8686:8686 -p9890:9890 -p7778:7778 -p8384:8383 f7e0df319514
+//To start docker
+sudo systemctl start docker
+//To restart docker
+systemctl restart docker
+//To load docker
+sudo docker load < angeela.tar
+sudo cp ~/Downloads/daemon.json /etc/docker/daemon.json                           
+
+first insert daemon.json in etc/docker
+docker pull 192.168.3.91:5000/mfin:v4.5.12 (this is to pull)
+
+docker run -it --rm -p8080:8080 -p4848:4848 -p3309:3306 -p8383:8383 -p8686:8686 -p9890:9890 -p7778:7778 -p8384:8383 f7e0df319514(images name)
+
+sudo docker save 069bfdea488c(imageid) -o angeela.tar
+sudo docker load < angeela.tar

@@ -1,0 +1,14 @@
+ALTER TABLE `mfin_db`.`customer_corporate_detail`
+DROP FOREIGN KEY `FK_cay6l429g6i63g40le4a1qcex`;
+ALTER TABLE `mfin_db`.`customer_corporate_detail`
+DROP COLUMN `assigned_to`,
+DROP INDEX `FK_cay6l429g6i63g40le4a1qcex` ;
+
+
+ALTER TABLE `mfin_db`.`customer_corporate_detail`
+DROP FOREIGN KEY `FK_83mmlgbt1rwhhsnay4puegsjx`;
+ALTER TABLE `mfin_db`.`customer_corporate_detail`
+DROP COLUMN `country`,
+DROP INDEX `FK_83mmlgbt1rwhhsnay4puegsjx` ;
+
+only after this query the corporate account is made
